@@ -2,7 +2,7 @@ const {
   numbersWithSmallerLeftDigit,
 } = require("../numbersWithIncreasingDigits");
 
-describe("problem1.numbersWithSmallerLeftDigit", () => {
+describe("numbersWithSmallerLeftDigit should return numbers having digits in increasing order", () => {
   it("should return correct count of all valid numbers below 100", () => {
     const digits = 2;
     const validNumbersBelow100 = [

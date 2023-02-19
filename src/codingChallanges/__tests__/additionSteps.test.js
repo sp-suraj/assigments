@@ -1,6 +1,6 @@
 const { stepsOfSum } = require("../additionSteps");
 
-describe("test for finding steps in the sum of two numbers", () => {
+describe("stepsOfSum should find steps in the sum of two numbers", () => {
   test("it should return the steps of sum of 2 numbers with same digit numbers", () => {
     let n1 = 1489,
       n2 = 1714;
